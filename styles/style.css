@@ -1,0 +1,82 @@
+.insert-cursor {
+  border-left: 10px solid rgb(255, 255, 255);
+  
+}
+
+
+@keyframes blink {
+  0% { opacity: 0; }
+  50% { opacity: 1; }
+  100% { opacity: 0; }
+}
+
+.slide-in-button {
+  animation: slide-in 3s ease-in-out;
+}
+
+@keyframes slide-in {
+  from {
+    transform: translateY(300%);
+  }
+  to {
+    transform: translateY(0%);
+  }
+}
+
+.slide-down-button {
+  animation: slide 3s ease-in-out;
+}
+
+@keyframes slide {
+  from {
+    transform: translateY(-300%);
+  }
+  to {
+    transform: translateY(0%);
+  }
+}
+
+.slide-left-button {
+  animation: slide-L 3s ease-in-out;
+}
+
+@keyframes slide-L {
+  from {
+    transform: translateX(-300%);
+  }
+  to {
+    transform: translateY(0%);
+  }
+}
+
+.slide-right-button {
+  animation: slide-R 3s ease-in-out;
+}
+
+@keyframes slide-R {
+  from {
+    transform: translateX(300%);
+  }
+  to {
+    transform: translateY(0%);
+  }
+}
+
+.slide-rotate-button {
+  animation: slide-Ro 3s ease-in-out;
+}
+
+@keyframes slide-Ro {
+  from {
+    transform: rotate(180deg) ;
+  }
+  to {
+    transform: rotate(-2deg) 
+    ;
+  }
+}
+.big-text {
+  font-size: 19px;
+  font-weight: 900;
+  color: rgb(175, 1, 1);
+}
